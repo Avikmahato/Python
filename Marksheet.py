@@ -10,13 +10,13 @@ for x in range(0,5):
 print("Total Marks   :",total)
 print("Percentage    :",per,"%")
 if per>=90 :
-    print("Grade         :A")
+    print("Grade         :A+")
 elif per>=80 and per<90:
-    print("Grade         :B")
+    print("Grade         :A")
 elif per>=70 and per<80:
-    print("Grade         :C")
+    print("Grade         :B")
 elif per>=60 and per<70:
-    print("Grade         :D")
+    print("Grade         :C")
 else:
-    print("Fail")
+    print("Grade         :D")
 
